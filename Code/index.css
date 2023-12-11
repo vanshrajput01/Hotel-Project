@@ -111,7 +111,7 @@ body{
     height: 30vh;
     margin-top:100px ;
     color: #fff;
-    background-color: black;
+    background-color: rgb(9, 9, 14);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,8 +140,8 @@ body{
     margin-top: 10px;
     padding: 10px 25px;
     border: 1px solid grey;
-    background-color: rgb(69, 69, 69);
-    color: black;
+    background-color: black;
+    color: grey;
 
 
 }
@@ -363,11 +363,18 @@ body{
     padding-top: 100px;
     background-color: rgb(9, 9, 14);
     color: #fff;
+    padding-bottom: 30px;
 
 }
 
 #Gallery-section-container01{
     text-align: center;
+}
+
+#Gallery-section-container01 h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+
 }
 
 #Gallery-section-container02{
@@ -386,6 +393,64 @@ body{
     height: 300px;
 
 }
+
+/* Custom Review section */
+
+#Custom-Review-section{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#Custom-Review-section-container01{
+    text-align: center;
+
+}
+
+#Custom-Review-section-container01 h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+/* silder */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .G-slider {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .G-slider img {
+    width: 200px;
+
+
+  }
+
+  .G-slider p{
+    width: 60vw;
+    margin-bottom: 50px;
+  }
+
+  .swiper-button-prev{
+    margin-left: 100px;
+  }
+
+  .swiper-button-next{
+    margin-right: 100px;
+  }
+
+
+  /* Footer section */
+
 
 
 
