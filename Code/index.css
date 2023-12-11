@@ -515,6 +515,8 @@ body{
 /* Responsive for Mobile  */
 
 @media (max-width : 1024px){
+    /* Nav bar an d body style */
+
     body{
         background-image: url("\\assets\\bg-image01.jpg");
         background-size: 100vw 650px;
@@ -710,6 +712,8 @@ body{
     align-items: center;
   }
 
+  /* About us section */
+
 
   #Aboutus-section{
     display: flex;
@@ -719,6 +723,8 @@ body{
 
   }
 
+
+
   #Aboutus-section-container01{
     width: 100%;
   }
@@ -726,6 +732,8 @@ body{
     margin-top: 30px;
     width: 100%;
   }
+
+    /* Gallery section style */
 
   #Gallery-section-c02-subcontainer01{
     display: flex;
@@ -749,6 +757,8 @@ body{
   .swiper-button-next{
     margin-right: 10px;
   }
+
+  /* Footer section */
 
   #footer-main-container{
     display: flex;
