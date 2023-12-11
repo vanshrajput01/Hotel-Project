@@ -8,3 +8,61 @@
 }
 
 
+body{
+    background-image: url("\\Assets\\bg-image01.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    overflow-x: hidden;
+}
+
+/* Nav Bar Style */
+
+.header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#nav-bar{
+
+    background-color: #fff;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-bar-logo-contect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+#nav-bar-logo-contect img{
+    width: 100px;
+}
+
+#nav-bar-logo-contect span{
+    font-size: larger;
+    font-weight: bold;
+}
+
+#nav-bar ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding-right: 30px;
+}
+
+
+#nav-bar ul li a{
+    text-decoration: none;
+    font-size: small;
+    font-weight: 700;
+    color: black;
+    
+}
+
+
