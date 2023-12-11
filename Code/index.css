@@ -310,6 +310,84 @@ body{
 
 /* About Us section */
 
+#Aboutus-section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    padding-top: 100px;
+}
+
+#Aboutus-section-container01{
+    margin-top: 60px;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 40px;
+}
+
+#Aboutus-section-container01 h1{
+    font-size: 30px;
+}
+
+#Aboutus-section-container01 p{
+    font-weight: 600;
+
+}
+#Aboutus-section-container01 button{
+    padding: 10px 25px;
+    font-weight: 800;
+    background-color: rgb(255, 203, 31);
+    color: #fff;
+    border: 1px solid rgb(255, 203, 31);
+
+}
+
+#Aboutus-section-container02{
+    width: 45vw;
+} 
+
+#Aboutus-section-container02 img{
+    width: 550px;
+}
+
+
+/* Gallery section */
+
+#Gallery-section{
+    margin-top: 100px;
+    border: 2px solid black;
+    padding-top: 100px;
+    background-color: rgb(9, 9, 14);
+    color: #fff;
+
+}
+
+#Gallery-section-container01{
+    text-align: center;
+}
+
+#Gallery-section-container02{
+    margin-top: 100px;
+}
+
+#Gallery-section-c02-subcontainer01{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#Gallery-section-c02-subcontainer01 div img{
+    border-radius: 10px;
+    width: 380px;
+    height: 300px;
+
+}
+
+
 
 
 
