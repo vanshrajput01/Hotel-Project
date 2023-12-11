@@ -7,12 +7,18 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 
 body{
     background-image: url("\\Assets\\bg-image01.jpg");
     background-repeat: no-repeat;
     background-size: 100vw 110vh;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 /* Nav Bar Style */
@@ -38,6 +44,26 @@ body{
     align-items: center;
     gap: 10px;
     
+}
+
+.moblie-navbar-icon{
+    display: none;
+    width: 4rem;
+    height: 4rem;
+
+}
+
+
+.fa-xmark{
+    display: none;
+}
+
+
+#social-media-icons{
+    color: white;
+    font-size: 18px;
+    display: flex;
+    gap: 15px;
 }
 
 #nav-bar-logo-contect img{
@@ -108,7 +134,8 @@ body{
 #book-room-from{
     margin-left: 25px;
     width: 95%;
-    height: 30vh;
+    padding-top: 40px;
+    padding-bottom: 50px;
     margin-top:100px ;
     color: #fff;
     background-color: rgb(9, 9, 14);
@@ -484,6 +511,271 @@ body{
 
 }
 
+
+/* Responsive for Mobile  */
+
+@media (max-width : 1024px){
+    body{
+        background-image: url("\\assets\\bg-image01.jpg");
+        background-size: 100vw 650px;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+        
+    
+    }
+    
+    #nav-bar{
+
+        position: relative;
+        background-color: white; 
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        width: 100%;
+        z-index: 998;
+    }
+
+    /* #social-media-icons{
+        display: none;
+    }
+     */
+
+    #nav-bar ul{
+        margin-top: 65px; 
+        width: 100%;
+        height: 40vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(-100%);
+        transition: all 0.5s linear;
+
+
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+
+
+    #nav-bar ul li a{
+        font-weight: 600;
+    }
+
+
+    #nav-bar ul li a:hover{
+        color: black;
+    }
+
+
+
+
+    .active #nav-bar ul{
+        transform: translateY(0);
+        opacity: 1;
+
+        visibility: visible;
+        pointer-events: auto;
+
+    }
+
+    .fa-xmark{
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 999;
+
+    }
+
+    .active .mobile-navbar-btn .fa-xmark{
+        display: block;
+        font-size: 2rem;
+        margin-top: 25px;
+        color: black;
+        
+    } 
+
+    .active .mobile-navbar-btn .fa-bars{
+
+        display: none;
+    }
+
+
+    .fa-bars{
+        color: black;
+        font-size: 2rem;
+        display: block;
+        z-index: 999;
+        margin-top: 25px;
+        position: fixed;
+        right: 0;
+    
+        
+
+    }
+
+    #header-after-contect{
+        margin-top: 200px;
+    
+    }
+    
+    #header-after-contect-container{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        color: #fff;
+        
+    }
+
+    #header-after-contect-container-h1{
+        font-size: 40px;
+        font-weight: 200;
+    }
+
+    #header-after-contect-container-btn{
+        margin-top: 20px;
+    }
+
+    #book-room-from{
+        margin-top: 80px;
+        width: 100%;
+        margin-left: 0px;
+
+    }
+
+    #book-room-f-container{
+        margin-left: 0px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 30px;
+        gap: 10px;
+    }
+
+    #book-room-f-container01 input{
+        width: 300px;
+    }
+
+    #book-room-f-container02 input{
+        width: 300px;
+    }
+
+    #book-room-f-container-btn{
+        font-weight: 300;
+
+    }
+
+    #rooms-section-container01{
+        margin-left: 20px;
+        width: 90%;
+    }
+
+    #rooms-section-container01 h1{
+        font-size: 25px;
+    }
+
+    
+  .swiper-slide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+  }
+    
+  #swiper-slide-img{
+    
+    width: 90%;
+    height: 250px;
+    margin-bottom: 15px;
+  }
+
+  #Facilities-section-container01{
+    width: 95%;
+    margin-left: 10px;
+  }
+
+  #Facilities-section-c02-subcontainer01{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  #Aboutus-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  #Aboutus-section-container01{
+    width: 100%;
+  }
+  #Aboutus-section-container02{
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  #Gallery-section-c02-subcontainer01{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    
+
+  }
+
+  #Gallery-section-c02-subcontainer01 div img{
+    margin-bottom: 30px;
+  }
+
+
+  .swiper-button-prev{
+    margin-left: 10px;
+  }
+
+  .swiper-button-next{
+    margin-right: 10px;
+  }
+
+  #footer-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+}
 
 
 

@@ -1,3 +1,17 @@
+const mobile_nav = document.querySelector('.mobile-navbar-btn')
+const navHeader = document.querySelector('.header');
+
+const toggleNavBar = () =>{
+
+  navHeader.classList.toggle("active")
+  
+};
+
+mobile_nav.addEventListener("click",()=> toggleNavBar());
+
+
+
+
 if(window.outerWidth > 1024){
     let swiper = new Swiper(".mySwiper", {
       loop:true,
