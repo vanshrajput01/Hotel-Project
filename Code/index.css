@@ -451,7 +451,38 @@ body{
 
   /* Footer section */
 
+#footer-section{
+    margin-top: 100px;
+}
 
+
+#footer-main-container{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+#footer-subcontainer01{
+    font-weight: 900;
+}
+#footer-subcontainer01 p span{
+    color: orange;
+}
+
+
+#footer-subcontainer02{
+    display: flex;
+    gap: 20px;
+}
+    
+.fa-brands{
+    font-size: 25px;
+    color: rgb(255, 203, 31);
+
+}
 
 
 
